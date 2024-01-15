@@ -1,7 +1,7 @@
 # NBA MVP Voting
 In this project, we used an NBA MVP voting dataset from Kaggle (https://www.kaggle.com/datasets/vivovinco/19912021-nba-stats) and trained 2 different models that predict how many points a player would receive given some variables.
 
-# Exploratory Data Analysis
+# Exploratory Data Analysis 🔍
 To begin, we first did some Exploratory Data Analysis on the dataset to see any correlations that some variables had on others. After creating and examining a Correlation Heatmap, a Scatter Plot, and a Boxplot, we decided to have the "Pts Won" column as our target variable and the "First", "Rank", and "Share" columns as our predictors. Although we didn't realize it until the very end of our project, our predictors were dependent variables, which should not be the case.
 
 # Preprocessing phase
